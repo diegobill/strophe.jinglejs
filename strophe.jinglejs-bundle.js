@@ -3543,7 +3543,7 @@ module.exports = function (constraints, cb) {
 
       chromeShim.shimGetUserMedia();
       chromeShim.shimMediaStream();
-      chromeShim.shimSourceObject();
+      //chromeShim.shimSourceObject();
       chromeShim.shimPeerConnection();
       chromeShim.shimOnTrack();
       break;
@@ -3557,7 +3557,7 @@ module.exports = function (constraints, cb) {
       module.exports.browserShim = firefoxShim;
 
       firefoxShim.shimGetUserMedia();
-      firefoxShim.shimSourceObject();
+      //firefoxShim.shimSourceObject();
       firefoxShim.shimPeerConnection();
       firefoxShim.shimOnTrack();
       break;
